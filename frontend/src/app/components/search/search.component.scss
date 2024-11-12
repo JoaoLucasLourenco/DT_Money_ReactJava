@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+
+form{
+    margin-top: 2rem;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap:10px;
+    #buscar{
+        width: 100%;
+        background-color: $bg-color;
+        border: none;
+        border-radius: 6px;
+        padding: 16px;
+        color: $base-text-color;
+    }
+    .button-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 32px;
+        border: 1px solid $green-color;
+        border-radius: 6px;
+        color:$green-color;
+        input{
+            border: none;
+            color: $green-color;
+            background-color: $principal-shape-color;
+        }
+        input:hover{
+            cursor: pointer;
+        }
+    }
+}

@@ -2,17 +2,17 @@
     
     <li>
         <p class="tituloCardInfo">Entradas</p>
-        <span>I</span>
-        <p class="Valor">Valor</p>
+        <span style="color: #00B37E;">I</span>
+        <p class="Valor"> {{entradas | currency }}</p>
     </li>
     <li>
         <p class="tituloCardInfo">Saídas</p>
-        <span>I</span>
-        <p class="Valor">Valor</p>
+        <span style="color: #F75A68;">I</span>
+        <p class="Valor"> {{saidas  | currency }}</p>
     </li>
     <li id="total">
         <p class="tituloCardInfo">Total</p>
         <span>I</span>
-        <p class="Valor">Valor</p>
+        <p class="Valor">{{total  | currency }}</p>
     </li>
 </ul>

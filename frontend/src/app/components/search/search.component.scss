@@ -1,5 +1,7 @@
 @import "../../styles/variables.scss";
-
+*{
+    transition:300ms;
+}
 form{
     margin-top: 2rem;
     display: flex;
@@ -20,16 +22,23 @@ form{
         align-items: center;
         justify-content: space-between;
         padding: 14px 32px;
-        border: 1px solid $green-color;
+        border: 1px solid $light-green-color;
         border-radius: 6px;
         color:$green-color;
         input{
             border: none;
-            color: $green-color;
+            color: $light-green-color;
             background-color: $principal-shape-color;
         }
         input:hover{
             cursor: pointer;
+        }
+    }
+    .button-wrapper:hover{
+        background-color: $green-color;
+        input{
+            background-color: $green-color;
+            color: #FFFFFF;
         }
     }
 }

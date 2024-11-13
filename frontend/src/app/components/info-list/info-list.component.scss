@@ -2,7 +2,6 @@
 
 *{
     list-style-type: none;
-    margin: 0;
 }
 
 ul{
@@ -15,6 +14,9 @@ ul{
     gap: 2rem;
     padding: 0;
     li{
+        p{
+            margin: 0;
+        }
         display: flex;
         background-color: $third-shape-color;
         width: 20rem;
